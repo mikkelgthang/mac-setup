@@ -1,12 +1,11 @@
-# zsh-setup for Mikkel Gallus Thang
-
-# FIG PRE BLOCK
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
+# OH-MY-ZSH SETUP
+# AUTHOR: Mikkel Gallus Thang
 
 # PATH
 export PATH=~/.npm-global/bin:$PATH
 export PATH="/Users/mikkelgallusthang/Library/Python/3.8/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
+
 
 # UPDATE
 zstyle ':omz:update' mode auto # update automatically without asking
@@ -47,8 +46,3 @@ alias pip=pip3
 
 # WELCOME GREETING
 fortune -s | cowsay
-
-# FIG POST BLOCK
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-
-export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
