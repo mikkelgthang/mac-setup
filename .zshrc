@@ -3,7 +3,6 @@
 
 # PATH
 export PATH=~/.npm-global/bin:$PATH
-export PATH="/Users/mikkelgallusthang/Library/Python/3.8/bin:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
 
 
